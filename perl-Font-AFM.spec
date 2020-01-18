@@ -1,6 +1,6 @@
 Name:           perl-Font-AFM
 Version:        1.20
-Release:        12.1%{?dist}
+Release:        13%{?dist}
 Summary:        Perl interface to Adobe Font Metrics files
 Group:          Development/Libraries
 License:        GPL+ or Artistic) and Copyright only
@@ -41,6 +41,9 @@ make test METRICS=%{_datadir}/a2ps/afm
 %{_mandir}/man3/Font*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.20-13
+- Mass rebuild 2013-12-27
+
 * Tue Jul 23 2013 Petr Šabata <contyk@redhat.com> - 1.20-12.1
 - Add missing build-time dependencies
 - Modernize the spec a little
